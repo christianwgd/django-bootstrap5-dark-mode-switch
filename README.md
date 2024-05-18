@@ -12,6 +12,10 @@ in your Django projects. With this library installed you get a menu from which
 you can select light mode, dark mode and an auto mode that automatically adapts 
 your theme to the theme selected with your browser or operating system.
 
+The dark mode switch is fully compatible with the django admin dark mode. So if 
+you select dark mode in your django admin it will also be enabled with your 
+frontend templates and vice versa.
+
 ## Installing
 
 `django-bootstrap5-dark-mode-switch` can be found on pypi. Run 
