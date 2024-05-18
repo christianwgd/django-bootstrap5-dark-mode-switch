@@ -3,6 +3,7 @@
 Use of bootstrap 5 dark mode made easy.
 
 **Please be aware that this library is in early development.**
+**This library is not yet available on pypi!**
 
 ## Installing
 
