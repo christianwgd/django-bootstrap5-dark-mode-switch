@@ -1,0 +1,43 @@
+{% extends 'django_bootstrap5/bootstrap5.html' %}
+{% load django_bootstrap5 static i18n dark_mode_switch %}
+{% block bootstrap5_extra_head %}
+<link href="{% static 'dark_mode_switch/dark-mode-switch.css' %}" rel="stylesheet" type="text/css">
+{{ block.super }}
+
+{% endblock %}
+
+{% block bootstrap5_extra_script %}
+{{ block.super }}
+<script src="{% static 'dark_mode_switch/dark-mode-switch.js' %}"></script>
+{% endblock %}
+
+{% block bootstrap5_title %}{% trans 'Django Bootstrap 5 Dark Mode Switch' %}{% endblock %}
+
+{% block bootstrap5_content %}
+<nav class="navbar navbar-expand">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'home' %}">
+            {% trans 'Django Bootstrap 5 dark mode switch' %}
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                {% include 'dark_mode_switch/dark_mode_switch.html' %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid mb-3" id="id_content">
+    <div class="row">
+        <div class="col-12">
+            {% bootstrap_messages %}
+            <h2 class="page-title mb-3">{% block page_title %}{% endblock %}</h2>
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}

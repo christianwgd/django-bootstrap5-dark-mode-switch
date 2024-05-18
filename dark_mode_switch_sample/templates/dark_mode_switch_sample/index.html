@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n static django_bootstrap5 %}
+
+{% block content %}
+
+<div class="row text-center">
+    <div class="col-12">
+
+        <h1 class="mt-3 mb-3">{% trans 'Django Bootstrap 5 dark mode switch' %}</h1>
+        <p>
+            {% blocktrans trimmed %}
+                To switch to dark mode select the "dark" option from
+                the menu on the top right.<br/>
+                The value defaults to "System" which means that the
+                mode will be set according your browser or system
+                settings.
+            {% endblocktrans %}
+        </p>
+
+    </div>
+</div>
+
+{% endblock %}
