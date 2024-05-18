@@ -5,6 +5,13 @@ Use of bootstrap 5 dark mode made easy.
 **Please be aware that this library is in early development.**
 **This library is not yet available on pypi!**
 
+## What is this for?
+
+django-bootstrap5-dark-mode-switch enables you to use the Bootstrap 5 dark mode
+in your Django projects. With this library installed you get a menu from which 
+you can select light mode, dark mode and an auto mode that automatically adapts 
+your theme to the theme selected with your browser or operating system.
+
 ## Installing
 
 `django-bootstrap5-dark-mode-switch` can be found on pypi. Run 
