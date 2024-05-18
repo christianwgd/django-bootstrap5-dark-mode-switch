@@ -1,9 +1,8 @@
 {% extends 'django_bootstrap5/bootstrap5.html' %}
 {% load django_bootstrap5 static i18n dark_mode_switch %}
 {% block bootstrap5_extra_head %}
-<link href="{% static 'dark_mode_switch/dark-mode-switch.css' %}" rel="stylesheet" type="text/css">
 {{ block.super }}
-
+<link href="{% static 'dark_mode_switch/dark-mode-switch.css' %}" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block bootstrap5_extra_script %}
