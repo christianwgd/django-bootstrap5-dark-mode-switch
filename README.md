@@ -83,4 +83,10 @@ If you like to have the switch outside the navbar you can create your own
 template by overriding it in `templates/dark_mode_switch/dark_mode_switch.html`.
 Please pay attention to the classes and ids of the options.
 
+## Colors
+
+As long as you stick with the standard bootstrap themes you don't have to 
+worry about colors. If you like to use your own color definitions you should 
+define also the dark mode color set 
+(see [Bootstrap 5 dark mode](https://getbootstrap.com/docs/5.3/customize/color-modes/)).
 
