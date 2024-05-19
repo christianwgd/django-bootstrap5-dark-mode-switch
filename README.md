@@ -25,19 +25,19 @@ package on your machine or in your virtual environment.
 
 ## Getting Started
 
-You need to have [django-bootstrap5](https://django-bootstrap5.readthedocs.io/en/latest/) installed.
+You need to have [django-bootstrap5](https://django-bootstrap5.readthedocs.io/en/latest/) >= 24.2 installed.
 
 Add the app to your settings.py:
 
 ```
 INSTALLED_APPS = [
     ...,
-    'dark-mode-switch',
+    'dark_mode_switch',
     ...,
 ]
 ```
 
-Include the css file:
+Include the css file in your base template:
 
 ```
 {% block bootstrap5_extra_head %}
@@ -46,7 +46,7 @@ Include the css file:
 {% endblock %}
 ```
 
-Include the javascript file:
+Include the javascript file in your base template:
 
 ```
 {% block bootstrap5_extra_script %}
