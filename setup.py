@@ -1,14 +1,16 @@
-import setuptools
+from distutils.core import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name='django-bootstrap5-dark-mode-switch',
     version='0.1.0',
-    packages=setuptools.find_packages(
-        exclude=["dark_mode_switch_sample", "*manage.py",]
-    ),
+    packages=[
+        'dark_mode_switch',
+        'dark_mode_switch.templates.dark_mode_switch',
+        'dark_mode_switch.static.dark_mode_switch',
+    ],
     include_package_data=True,
     description='Dark mode switch for Django with Bootstrap 5',
     long_description=long_description,
@@ -18,8 +20,8 @@ setuptools.setup(
     url='https://github.com/christianwgd/django-bootstrap5-dark-mode-switch',
     keywords=['django', 'bootstrap', 'dark mode'],
     install_requires=[
-        'django',
-        'django-bootstrap5'
+        'django>=4.2',
+        'django-bootstrap5>=24.2'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -27,4 +29,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.10',
+    zip_safe=False,
 )
