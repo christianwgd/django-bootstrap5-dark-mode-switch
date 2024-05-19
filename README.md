@@ -23,6 +23,9 @@ frontend templates and vice versa.
 `pip install django-bootstrap5-dark-mode-switch` to install the 
 package on your machine or in your virtual environment.
 
+**!! As long as this package isn't available from pypi you can install 
+it using `pip install git+https://github.com/christianwgd/django-bootstrap5-dark-mode-switch.git` !**!
+
 ## Getting Started
 
 You need to have [django-bootstrap5](https://django-bootstrap5.readthedocs.io/en/latest/) >= 24.2 installed.
