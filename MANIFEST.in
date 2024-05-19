@@ -1,0 +1,8 @@
+include LICENSE README.md CHANGELOG.md
+recursive-include dark_mode_switch/static *
+recursive-include dark_mode_switch/templates *
+recursive-exclude * __pycache__
+recursive-exclude * *.png
+recursive-exclude * manage.py
+recursive-exclude *
+recursive-exclude dark_mode_switch_sample *
