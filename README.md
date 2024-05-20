@@ -1,7 +1,8 @@
 # Django Bootstrap 5 Dark Mode Switch
 
-![PyPI](https://img.shields.io/pypi/v/django-bootstrap5-dark-mode-switch)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/django-bootstrap5-dark-mode-switch)
+[![image](https://img.shields.io/pypi/v/django-bootstrap5-dark-mode-switch)](https://pypi.python.org/pypi/django-bootstrap5-dark-mode-switch)
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/django-bootstrap5-dark-mode-switch)](https://pypi.python.org/pypi/django-bootstrap5-dark-mode-switch)
 
 Use of bootstrap 5 dark mode made easy.
 
