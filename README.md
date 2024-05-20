@@ -2,9 +2,6 @@
 
 Use of bootstrap 5 dark mode made easy.
 
-**Please be aware that this library is in early development.**
-**This library is not yet available on pypi!**
-
 ## What is this for?
 
 django-bootstrap5-dark-mode-switch enables you to use the 
@@ -22,9 +19,6 @@ frontend templates and vice versa.
 `django-bootstrap5-dark-mode-switch` can be found on pypi. Run 
 `pip install django-bootstrap5-dark-mode-switch` to install the 
 package on your machine or in your virtual environment.
-
-**!! As long as this package isn't available from pypi you can install 
-it using `pip install git+https://github.com/christianwgd/django-bootstrap5-dark-mode-switch.git` !**!
 
 ## Getting Started
 
