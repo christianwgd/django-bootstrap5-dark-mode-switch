@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='django-bootstrap5-dark-mode-switch',
-    version='0.2.1',
+    version='0.2.2',
     packages=[
         'dark_mode_switch',
         'dark_mode_switch.templates.dark_mode_switch',
